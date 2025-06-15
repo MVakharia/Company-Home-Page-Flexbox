@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap');
+
+* {
+    border: 1px solid red;
+
+    margin: auto;
+
+    max-width:1080px;
+
+    font-family: Gabarito, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+
+    margin: 20px 0;
+}
+
+#pixel {
+    font-family: "Jersey 10", sans-serif;
+
+    font-size:80px;
+}
+
+#gremlin {
+    font-family: Slackey, sans-serif;
+
+    font-size: 60px;
+}
+
+#navigation {
+    list-style-type: none;
+
+    margin:0;
+    padding:0;
+
+    display:flex;
+}
+
+#navigation li {
+
+    font-size: 24px;
+}
+
+#portfolio {
+    text-align:center;
+}
+
+#team {
+    text-align:center;
+}
+
+#contact {
+    text-align: center;
+}
+
+    .gluten-regular {
+        font-family: "Gluten", cursive;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings: "slnt" 0;
+    }
+
+.slackey-regular {
+    font-family: "Slackey", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.jersey-10-regular {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
