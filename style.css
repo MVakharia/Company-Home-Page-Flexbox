@@ -6,43 +6,42 @@
 * {
     border: 1px solid red;
 
-    margin: auto;
-
-    max-width:1080px;
-
     font-family: Gabarito, Verdana, sans-serif;
 }
 
 h1 {
     text-align: center;
 
-    margin: 20px 0;
+    margin:50px 0;
 }
 
-#pixel {
-    font-family: "Jersey 10", sans-serif;
+.banner {
+    width:100%;
 
-    font-size:80px;
+    max-height:300px;
+
+    object-fit:cover;
 }
 
-#gremlin {
-    font-family: Slackey, sans-serif;
-
-    font-size: 60px;
+.mission-statement {
+position: absolute;
 }
 
 #navigation {
     list-style-type: none;
 
-    margin:0;
+    margin: 50px 0;
     padding:0;
 
     display:flex;
+
+    justify-content: space-around;
 }
 
 #navigation li {
-
     font-size: 24px;
+
+
 }
 
 #portfolio {
