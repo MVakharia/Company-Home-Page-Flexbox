@@ -7,13 +7,32 @@
     border: 1px solid red;
 
     font-family: Gabarito, Verdana, sans-serif;
+
+    box-sizing: content-box;
 }
+
+.section {
+    text-align:center;
+}
+
+#heading-section { }
 
 h1 {
     text-align: center;
-
-    margin:50px 0;
 }
+
+.navigation-section { }
+
+#navigation {
+    list-style-type: none;
+    padding:0;
+
+    display:flex;
+
+    justify-content: space-around;
+}
+
+#mission-statement-section { }
 
 .banner {
     width:100%;
@@ -23,47 +42,56 @@ h1 {
     object-fit:cover;
 }
 
-.mission-statement {
+#mission-statement-content {
     position: absolute;
-
-    top:45%;
 
     background-color: white;
 
-    width: 100%;
+    width: 99%;
 
-    height: 125px;
+    height: 110px;
 
     text-align: center;
-}
 
-#navigation {
-    list-style-type: none;
+    top:33%;
 
-    margin: 50px 0;
-    padding:0;
+    left:50%;
 
-    display:flex;
+    transform:translate(-50%, 0);
 
-    justify-content: space-around;
-}
-
-#navigation li {
-    font-size: 24px;
-
-
+    margin:0;
 }
 
 #portfolio {
-    text-align:center;
+
 }
 
+#portfolio-gallery {
+    display:flex;
+}
+
+.portfolio-item {
+    display: flex;
+
+    flex-direction: column;
+
+
+}
+
+.portfolio-item img {
+    width:200px;
+
+    height: auto;
+}
+
+
+
 #team {
-    text-align:center;
+
 }
 
 #contact {
-    text-align: center;
+
 }
 
     .gluten-regular {
