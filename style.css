@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap');
 
 * {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 
     font-family: Gabarito, Verdana, sans-serif;
 
@@ -32,34 +32,28 @@ h1 {
     justify-content: space-around;
 }
 
-#mission-statement-section { }
+#mission-statement-section {
+    background-image: url("vector-blue-squares-abstract-background/442.jpg");
 
-.banner-mission {
-    width:100%;
+    height:250px;
 
-    max-height:300px;
+    background-size: cover;
 
-    object-fit:cover;
+    background-repeat: no-repeat;
+
+    background-position-y: center;
+
+    padding-top:125px;
 }
 
 #mission-statement-content {
-    position: absolute;
-
     background-color: white;
-
-    width: 99%;
-
-    height: 110px;
 
     text-align: center;
 
-    top:33%;
+    padding-top:10px;
 
-    left:50%;
-
-    transform:translate(-50%, 0);
-
-    margin:0;
+    padding-bottom: 10px;
 }
 
 #portfolio {
@@ -90,38 +84,30 @@ h1 {
     margin: 20px;
 }
 
+.portfolio-item p {
+    margin: 20px;
 
+    max-width: 150px;
+}
 
 #team {
 
 }
 
-.banner-team {
-    width:100%;
-
-    height:500px;
-
-    object-fit:cover;
-}
-
 #team-members {
-    position: absolute;
+    background-image: url("vector-blue-squares-abstract-background/442.jpg");
 
-    display: flex;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+    background-position-y: center;
+
+    display:flex;
 
     flex-flow: row wrap;
 
-    justify-content: center;
-
-    top: 210%;
-
-    width: 99%;
-
-    left: 50%;
-
-    transform:translate(-50%, 0);
-
-    background: white;
+    justify-content: space-around;
 
 
 }
@@ -132,6 +118,10 @@ h1 {
     flex-direction: column;
 
     align-items: center;
+
+    background: white;
+
+    margin: 25px 0;
 }
 
 .team-member img {
@@ -140,6 +130,12 @@ h1 {
     height:auto;
 
     margin: 20px;
+}
+
+.team-member p {
+    margin: 20px;
+
+    max-width: 150px;
 }
 
 #contact {
